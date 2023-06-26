@@ -1,0 +1,146 @@
+
+.scroll{
+    color: #737373;
+       padding: 15px 20px;
+       border: 2px solid #e5e5e5;
+       border-radius: 5px;
+       background-color: #e5e5e5;
+       transition:ease-in-out
+   }
+   
+   .scroll:hover{
+      color: white;
+       background: #737373;
+   }
+   
+   #scroll-up-button{
+       position: fixed;
+       bottom: 25px;
+       right: 15px;
+   }
+
+.main-nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 90px;
+    background-color: #dbdbdb;
+}
+
+.nav-text{
+    font-size: 28px;
+    padding: 13px 13px 13px 13px;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: #737373;
+    background-color: #dbdbdb;
+    border: #dbdbdb;
+}
+
+.nav-text:hover{
+    color: black;
+    transition: ease-in-out;
+    background-color: white;
+}
+
+.homepage-title1{
+   padding-top: 100px;
+   font-size: 50px;
+   padding-left: 90px;
+}
+
+.homepage-text1{
+    font-style: oblique;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.text1{
+    color: #e5e5e5; 
+    font-size: 20px;
+}
+
+.text1:hover{
+    color: #819aab;
+}
+
+.block1-nav{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 13px;
+    background-color:#819aab;
+}
+
+.block2-nav{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 13px;
+    background-color:#819aab;
+}
+
+.btn-block1{
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #819aab;
+    border: #819aab;
+    border-radius: 3px;
+}
+
+.btn-block1:hover{
+    background-color: white
+}
+
+.btn-block2{
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 3px;
+    background-color: #819aab;
+    border: #819aab;
+}
+
+.btn-block2:hover{
+    background-color: white;
+}
+
+.week-blog{
+    background-color: #bfbfbf;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 50px;
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (400px <= width <= 1000px){
+    .main-nav{
+    position: absolute;
+    left: 0px;
+    }
+
+    .nav-text{
+    font-size: 15px;
+    margin-left: 10px;
+    }
+
+    .block1-nav{
+        margin-left: 0px;
+    }
+    
+   .block2-nav{
+       margin-left: 0px;
+   }
+}

@@ -1,0 +1,297 @@
+
+.main-nav{
+position: fixed;
+left: 0px;
+top: 0px;
+height: 90px;
+width: 1700px;
+background-color: #bfbfbf;
+}
+
+.main-nav-btn{
+font-size: 25px;
+padding: 13px 13px 13px 13px;
+margin-top: 5px;
+margin-left: 50px;
+border: #bfbfbf;
+background-color: #bfbfbf;
+}
+
+.main-nav-btn:hover{
+color: #819aab;
+background-color: #e5e5e5;
+}
+
+.scroll{
+color: aliceblue;
+padding: 15px 20px;
+border: 2px solid gray;
+border-radius: 5px;
+background-color: gray;
+transition:ease-in-out
+}
+   
+.scroll:hover{
+color: gray;
+background: white;
+}
+   
+#scroll-up-button{
+position: fixed;
+bottom: 25px;
+right: 15px;
+}
+
+.One{
+background-color: #e5e5e5;   
+height: 320px; 
+}
+
+.Two{
+background-color: #819aab;
+height: 330px;
+}
+
+.homepage-title1{
+padding-top: 100px;
+margin-left: 350px;
+font-size: 70px;
+color: black;
+}
+
+.homepage-text1{
+font-style: oblique;
+color: black;
+padding-left: 200px;
+font-size: 20px;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+
+.homepage-title2{
+padding-top: 20px;
+padding-left: 250px;
+font-size: 40px;
+color: white;
+}
+
+.homepage-text2{
+font-style: oblique;
+margin-left: 250px;
+margin-right: 150px;
+font-size: 20px;
+padding-bottom: 20px;
+color: white;
+}
+
+.homepage-ext{
+color: #e5e5e5;
+font-size: 19px;
+padding-left: 600px;
+}
+
+.homepage-ext:hover{
+color: black;
+}
+
+.homepage-title3{
+margin-top: 50px;
+margin-left: 200px;
+font-size: 30px;
+}
+
+.nav-1{
+display: grid;
+grid-template-columns: repeat(4,0fr);
+gap: 70px;
+grid-template-rows: repeat(1,0fr);
+align-items: center;
+margin-left: 110px;
+border-radius: 20px;
+color: black;
+font-size: 20px;
+}
+
+.one{
+grid-column: 1;
+grid-row: 1;
+padding: 20px 20px 20px 20px;
+width: 250px;
+height: 300px;
+background-color: #f6f6f6;
+border-radius: 17px;
+}
+
+.two{
+    grid-column: 2;
+    grid-row: 1;
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+    height: 300px;
+    background-color: #f6f6f6;
+    border-radius: 17px;
+}
+
+.three{
+    grid-column: 3;
+    grid-row: 1;
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+    height: 300px;
+    background-color: #f6f6f6;
+    border-radius: 17px;
+}
+
+.four{
+    grid-column: 4;
+    grid-row: 1;
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+    height: 300px;
+    background-color: #f6f6f6;
+    border-radius: 17px;
+}
+
+.nav-btn{
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    padding: 13px 13px 13px 13px;
+    border-radius: 1px;
+}
+
+.nav-btn2{
+    color: white;
+    background-color: black;
+    margin-top: 88px;
+    text-align: center;
+    padding: 13px 13px 13px 13px;
+    border-radius: 1px;
+}
+
+.nav-btn3{
+    color: white;
+    background-color: black;
+    margin-top: 135px;
+    padding: 13px 13px 13px 13px;
+    border-radius: 1px;
+}
+
+.nav-btn:hover{
+background-color: white;
+color: black;
+}
+
+.nav-btn2:hover{
+background-color: white;
+color: black;
+}
+
+.nav-btn3:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    padding-top: 35px;
+    text-align: center;
+}
+
+@media screen and (400px <= width <= 1000px){
+.main-nav{
+position: absolute;
+text-align: left;
+left: 1px;
+}
+
+.main-nav-btn{
+font-size: 15px;
+margin-left: 20px;
+}
+
+.homepage-title1{
+font-size: 35px;
+margin-left: 20px;
+}
+
+.homepage-text1{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.homepage-title2{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.homepage-text2{
+    margin-left: 25px;
+}
+
+.homepage-text2{
+    font-size: 15px;
+}
+
+.homepage-ext{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.nav-1{
+    display: grid;
+    grid-template-columns: repeat(1,0fr);
+    gap: 95px;
+   grid-template-rows: repeat(4,0fr);
+   align-items: center;
+   font-size: 15px;
+}
+
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    width: 150px;
+    height: 150px;
+    padding: 9px 9px 9px 9px;
+}
+
+.two{
+    grid-column: 1;
+    grid-row: 2;
+    width: 150px;
+    height: 150px;
+    padding: 9px 9px 9px 9px;
+}
+
+.three{
+    grid-column: 1;
+    grid-row: 3;
+    width: 150px;
+    height: 150px;
+    padding: 9px 9px 9px 9px;
+}
+
+.four{
+    grid-column: 1;
+    grid-row: 4;
+    width: 150px;
+    height: 150px;
+    padding: 9px 9px 9px 9px;
+}
+
+.nav-btn{
+    margin-top: 0px;
+}
+
+.nav-btn2{
+    margin-top: 0px;
+}
+
+.nav-btn3{
+    margin-top: 0px;
+    font-size: 12px;
+}
+}
+
+
+

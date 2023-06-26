@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- more metadata-->
+    <meta name="author" content="Zeenat Cassim" />
+    <meta
+      name="description"
+      content="This is the homepage for Zeenat Cassim's portfolio website"
+    />
+    <meta name="keywords" content="portfolio website" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="main-nav" id="top-nav-bar">
+        <ul>
+          <button class="main-nav-btn" id="goToDesignBtn">
+            Design Section
+          </button>
+          <button class="main-nav-btn" id="goToEssayBtn">Essay</button>
+          <button class="main-nav-btn" id="goToPortfolioBtn">Portfolio</button>
+          <button class="main-nav-btn" id="goToBlogsBtn">Weekly Blogs</button>
+          <script src="javascript.js"></script>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="One">
+        <h1 class="homepage-title1">Hi There!</h1>
+        <p class="homepage-text1">
+          I am Zeenat Cassim, a third year student studying BA Digital Arts at
+          the University of Witwatersrand.
+        </p>
+        <p class="homepage-text1">Welcome to my portfolio website</p>
+      </section>
+
+      <section class="Two">
+        <h2 class="homepage-title2">What I do</h2>
+        <p class="homepage-text2">
+          Currently I am still studying so I do not have much time to do extra
+          work on the side but with my degree. I learnt how to program games
+          using c# in a game engine called Unity. I also know the basics of 3D
+          modelling. I can also do digital drawings and now I am learning front
+          end development of websites and the languages html, css and
+          javascript.
+        </p>
+
+        <a href="Portfolio.html" class="homepage-ext"> Learn More About Me</a>
+      </section>
+
+      <section class="homepage-title3">
+        <h3>With introductions done, what would you like to look at next?</h3>
+      </section>
+
+      <nav class="nav-1">
+        <!-- after user has read the introduction, they find this mini navigation option where they can choose where to go next-->
+
+        <section class="one">
+          <h4>Weekly Blogs</h4>
+          <caption>
+            These are the blog posts I wrote every week during the semester,
+            documenting my progress on this website and learning process for
+            this course.
+          </caption>
+          <article>
+            <button class="nav-btn">
+              <a class="nav-btn" href="weekly blogs.html"> Weekly Blogs</a>
+            </button>
+          </article>
+        </section>
+
+        <section class="two">
+          <h4>Design Section</h4>
+          <caption>
+            These are style guides, wireframes and implementation notes for
+            designing this website.
+          </caption>
+          <article>
+            <button class="nav-btn2">
+              <a class="nav-btn2" href="Design.html"> Design</a>
+            </button>
+          </article>
+        </section>
+
+        <section class="three">
+          <h4>Portfolio</h4>
+          <caption>
+            Look at some examples of other work I previously did.
+          </caption>
+          <article>
+            <button class="nav-btn3">
+              <a class="nav-btn3" href="Portfolio.html">Portfolio</a>
+            </button>
+          </article>
+        </section>
+
+        <section class="four">
+          <h4>Essays</h4>
+          <caption>
+            These include an essay from assignment 2 and the exam.
+          </caption>
+          <article>
+            <button class="nav-btn3">
+              <a class="nav-btn3" href="essay.html">Essay</a>
+            </button>
+          </article>
+        </section>
+      </nav>
+    </main>
+  </body>
+
+  <footer class="footer">
+    <!-- section at bottom of webpage-->
+    <article id="scroll-up-button">
+      <a href="#top" class="scroll">Scroll Up</a>
+    </article>
+
+    <!--microformats-->
+    <caption class="h-card">
+      <p>
+        All information on this website belongs to
+        <span class="p-name"> Zeenat Cassim </span>
+      </p>
+    </caption>
+  </footer>
+</html>

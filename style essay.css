@@ -1,0 +1,95 @@
+
+
+.scroll{
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: black;
+    transition:ease-in-out;
+}
+
+.scroll:hover{
+    color: black;
+    background: white;
+}
+
+#scroll-up-button{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
+
+.main-nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #e5e5e5;
+    width: 1700px;
+    height: 90px;
+}
+
+.nav-text{
+    font-size: 25px;
+    padding: 13px 13px 13px 13px;
+    margin-top: 5px;
+    margin-left: 50px;
+    border: #e5e5e5;
+    background-color: #e5e5e5;
+}
+
+.nav-text:hover{
+    background-color: #737373;
+    color: white;
+    transition: ease-in-out;
+}
+
+@media screen and (400px <= width <= 1000px){
+    .main-nav{
+        position: absolute;
+        text-align: right;
+        right: 0;
+    }
+}
+
+
+.title-1{
+padding-top: 100px;
+padding-left: 90px;
+font-size: 50px;
+color: black;
+}
+
+.text-1{
+font-style: oblique;
+color: gray;
+font-size: 20px;
+margin-left: 90px;
+}
+
+.essay-btn{
+    margin-left: 100px;
+    background-color: white;
+    border: white;
+    font-size: 20px;
+    color: #819aab;
+}
+
+.essay-btn:hover{
+    color: black;
+}
+
+.essay-section{
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+    background-color: #e5e5e5;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}

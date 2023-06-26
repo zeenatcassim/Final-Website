@@ -1,0 +1,148 @@
+
+.scroll{
+    color: #819aab;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+    transition:ease-in-out;
+}
+
+.scroll:hover{
+    color: gray;
+    background: #faeedf;
+    font-size: 22px;
+}
+
+#scroll-up-button{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
+
+nav{
+position: fixed;
+background-color: white;
+left: -1px;
+top: 0px;
+width: 1700px;
+height: 90px;
+
+}
+
+.nav-text{
+    font-size: 25px;
+    padding: 13px 13px 13px 13px;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: #aaacb1;
+    border: white;
+    background-color: white;
+}
+
+.nav-text:hover{
+    color: black;
+    transition: ease-in-out;
+    background-color: #aaacb1;
+}
+
+@media screen and (400px <= width <= 1000px){
+    nav{
+        position: absolute;
+        text-align: left;
+        left: 1px;
+    }
+
+    .nav-text{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}
+
+.sec-One{
+    background-color: #dbdbdb;
+    height: 370px;
+}
+
+.title1{
+    padding-top: 100px;
+    padding-left: 250px;
+    font-size: 50px;
+}
+
+.belowtitle1{
+    color: #737373;
+    font-style: oblique;
+    padding-left: 250px;
+}
+
+.par1{
+    padding-top: 75px;
+    margin-left: 250px;
+    margin-right: 150px;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.writing{
+    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: #819aab;
+    color: white;
+    height: 700px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.coding{
+    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: #819aab;
+    color: white;
+    height: 700px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.drawing{
+    padding-top: 80px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: #819aab;
+    color: white;
+    height: 500px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.links{
+    color: white;
+}
+
+.links:hover{
+  color: #6b6d72;
+}
+
+
+
+footer{
+    color: #525357;
+    text-align: center;
+}
